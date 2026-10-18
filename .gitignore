@@ -1,0 +1,20 @@
+# macOS and editor files
+.DS_Store
+._*
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Runtime files
+*.log
+*.pid
+/frontend/logs/
+/frontend/temp/
+
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+/backend/src/main/resources/application.yaml
